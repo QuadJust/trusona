@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5599B85B21A3CE350034CA25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599B85A21A3CE350034CA25 /* AppDelegate.swift */; };
+		5599B85D21A3CE350034CA25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599B85C21A3CE350034CA25 /* ViewController.swift */; };
+		5599B86021A3CE350034CA25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5599B85E21A3CE350034CA25 /* Main.storyboard */; };
+		5599B86321A3CE350034CA25 /* trusona.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5599B86121A3CE350034CA25 /* trusona.xcdatamodeld */; };
+		5599B86521A3CE360034CA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5599B86421A3CE360034CA25 /* Assets.xcassets */; };
+		5599B86821A3CE360034CA25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5599B86621A3CE360034CA25 /* LaunchScreen.storyboard */; };
+		5599B87321A3CE360034CA25 /* trusonaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599B87221A3CE360034CA25 /* trusonaTests.swift */; };
+		5599B87E21A3CE360034CA25 /* trusonaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599B87D21A3CE360034CA25 /* trusonaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5599B86F21A3CE360034CA25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5599B84F21A3CE340034CA25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5599B85621A3CE350034CA25;
+			remoteInfo = trusona;
+		};
+		5599B87A21A3CE360034CA25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5599B84F21A3CE340034CA25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5599B85621A3CE350034CA25;
+			remoteInfo = trusona;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5599B85721A3CE350034CA25 /* trusona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trusona.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5599B85A21A3CE350034CA25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5599B85C21A3CE350034CA25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5599B85F21A3CE350034CA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5599B86221A3CE350034CA25 /* trusona.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = trusona.xcdatamodel; sourceTree = "<group>"; };
+		5599B86421A3CE360034CA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5599B86721A3CE360034CA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5599B86921A3CE360034CA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5599B86E21A3CE360034CA25 /* trusonaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trusonaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5599B87221A3CE360034CA25 /* trusonaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trusonaTests.swift; sourceTree = "<group>"; };
+		5599B87421A3CE360034CA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5599B87921A3CE360034CA25 /* trusonaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trusonaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5599B87D21A3CE360034CA25 /* trusonaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trusonaUITests.swift; sourceTree = "<group>"; };
+		5599B87F21A3CE360034CA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5599B85421A3CE350034CA25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5599B86B21A3CE360034CA25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5599B87621A3CE360034CA25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5599B84E21A3CE340034CA25 = {
+			isa = PBXGroup;
+			children = (
+				5599B85921A3CE350034CA25 /* trusona */,
+				5599B87121A3CE360034CA25 /* trusonaTests */,
+				5599B87C21A3CE360034CA25 /* trusonaUITests */,
+				5599B85821A3CE350034CA25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5599B85821A3CE350034CA25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5599B85721A3CE350034CA25 /* trusona.app */,
+				5599B86E21A3CE360034CA25 /* trusonaTests.xctest */,
+				5599B87921A3CE360034CA25 /* trusonaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5599B85921A3CE350034CA25 /* trusona */ = {
+			isa = PBXGroup;
+			children = (
+				5599B85A21A3CE350034CA25 /* AppDelegate.swift */,
+				5599B85C21A3CE350034CA25 /* ViewController.swift */,
+				5599B85E21A3CE350034CA25 /* Main.storyboard */,
+				5599B86421A3CE360034CA25 /* Assets.xcassets */,
+				5599B86621A3CE360034CA25 /* LaunchScreen.storyboard */,
+				5599B86921A3CE360034CA25 /* Info.plist */,
+				5599B86121A3CE350034CA25 /* trusona.xcdatamodeld */,
+			);
+			path = trusona;
+			sourceTree = "<group>";
+		};
+		5599B87121A3CE360034CA25 /* trusonaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5599B87221A3CE360034CA25 /* trusonaTests.swift */,
+				5599B87421A3CE360034CA25 /* Info.plist */,
+			);
+			path = trusonaTests;
+			sourceTree = "<group>";
+		};
+		5599B87C21A3CE360034CA25 /* trusonaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5599B87D21A3CE360034CA25 /* trusonaUITests.swift */,
+				5599B87F21A3CE360034CA25 /* Info.plist */,
+			);
+			path = trusonaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5599B85621A3CE350034CA25 /* trusona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5599B88221A3CE360034CA25 /* Build configuration list for PBXNativeTarget "trusona" */;
+			buildPhases = (
+				5599B85321A3CE350034CA25 /* Sources */,
+				5599B85421A3CE350034CA25 /* Frameworks */,
+				5599B85521A3CE350034CA25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trusona;
+			productName = trusona;
+			productReference = 5599B85721A3CE350034CA25 /* trusona.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5599B86D21A3CE360034CA25 /* trusonaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5599B88521A3CE360034CA25 /* Build configuration list for PBXNativeTarget "trusonaTests" */;
+			buildPhases = (
+				5599B86A21A3CE360034CA25 /* Sources */,
+				5599B86B21A3CE360034CA25 /* Frameworks */,
+				5599B86C21A3CE360034CA25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5599B87021A3CE360034CA25 /* PBXTargetDependency */,
+			);
+			name = trusonaTests;
+			productName = trusonaTests;
+			productReference = 5599B86E21A3CE360034CA25 /* trusonaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5599B87821A3CE360034CA25 /* trusonaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5599B88821A3CE360034CA25 /* Build configuration list for PBXNativeTarget "trusonaUITests" */;
+			buildPhases = (
+				5599B87521A3CE360034CA25 /* Sources */,
+				5599B87621A3CE360034CA25 /* Frameworks */,
+				5599B87721A3CE360034CA25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5599B87B21A3CE360034CA25 /* PBXTargetDependency */,
+			);
+			name = trusonaUITests;
+			productName = trusonaUITests;
+			productReference = 5599B87921A3CE360034CA25 /* trusonaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5599B84F21A3CE340034CA25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = inet;
+				TargetAttributes = {
+					5599B85621A3CE350034CA25 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5599B86D21A3CE360034CA25 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5599B85621A3CE350034CA25;
+					};
+					5599B87821A3CE360034CA25 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5599B85621A3CE350034CA25;
+					};
+				};
+			};
+			buildConfigurationList = 5599B85221A3CE340034CA25 /* Build configuration list for PBXProject "trusona" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5599B84E21A3CE340034CA25;
+			productRefGroup = 5599B85821A3CE350034CA25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5599B85621A3CE350034CA25 /* trusona */,
+				5599B86D21A3CE360034CA25 /* trusonaTests */,
+				5599B87821A3CE360034CA25 /* trusonaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5599B85521A3CE350034CA25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5599B86821A3CE360034CA25 /* LaunchScreen.storyboard in Resources */,
+				5599B86521A3CE360034CA25 /* Assets.xcassets in Resources */,
+				5599B86021A3CE350034CA25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5599B86C21A3CE360034CA25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5599B87721A3CE360034CA25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5599B85321A3CE350034CA25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5599B85D21A3CE350034CA25 /* ViewController.swift in Sources */,
+				5599B85B21A3CE350034CA25 /* AppDelegate.swift in Sources */,
+				5599B86321A3CE350034CA25 /* trusona.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5599B86A21A3CE360034CA25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5599B87321A3CE360034CA25 /* trusonaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5599B87521A3CE360034CA25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5599B87E21A3CE360034CA25 /* trusonaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5599B87021A3CE360034CA25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5599B85621A3CE350034CA25 /* trusona */;
+			targetProxy = 5599B86F21A3CE360034CA25 /* PBXContainerItemProxy */;
+		};
+		5599B87B21A3CE360034CA25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5599B85621A3CE350034CA25 /* trusona */;
+			targetProxy = 5599B87A21A3CE360034CA25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5599B85E21A3CE350034CA25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5599B85F21A3CE350034CA25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5599B86621A3CE360034CA25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5599B86721A3CE360034CA25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5599B88021A3CE360034CA25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5599B88121A3CE360034CA25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5599B88321A3CE360034CA25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXWVAX7PB2;
+				INFOPLIST_FILE = trusona/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.inet.trusona;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5599B88421A3CE360034CA25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXWVAX7PB2;
+				INFOPLIST_FILE = trusona/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.inet.trusona;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5599B88621A3CE360034CA25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXWVAX7PB2;
+				INFOPLIST_FILE = trusonaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.inet.trusonaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trusona.app/trusona";
+			};
+			name = Debug;
+		};
+		5599B88721A3CE360034CA25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXWVAX7PB2;
+				INFOPLIST_FILE = trusonaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.inet.trusonaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trusona.app/trusona";
+			};
+			name = Release;
+		};
+		5599B88921A3CE360034CA25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXWVAX7PB2;
+				INFOPLIST_FILE = trusonaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.inet.trusonaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = trusona;
+			};
+			name = Debug;
+		};
+		5599B88A21A3CE370034CA25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXWVAX7PB2;
+				INFOPLIST_FILE = trusonaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.inet.trusonaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = trusona;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5599B85221A3CE340034CA25 /* Build configuration list for PBXProject "trusona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5599B88021A3CE360034CA25 /* Debug */,
+				5599B88121A3CE360034CA25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5599B88221A3CE360034CA25 /* Build configuration list for PBXNativeTarget "trusona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5599B88321A3CE360034CA25 /* Debug */,
+				5599B88421A3CE360034CA25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5599B88521A3CE360034CA25 /* Build configuration list for PBXNativeTarget "trusonaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5599B88621A3CE360034CA25 /* Debug */,
+				5599B88721A3CE360034CA25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5599B88821A3CE360034CA25 /* Build configuration list for PBXNativeTarget "trusonaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5599B88921A3CE360034CA25 /* Debug */,
+				5599B88A21A3CE370034CA25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5599B86121A3CE350034CA25 /* trusona.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5599B86221A3CE350034CA25 /* trusona.xcdatamodel */,
+			);
+			currentVersion = 5599B86221A3CE350034CA25 /* trusona.xcdatamodel */;
+			path = trusona.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5599B84F21A3CE340034CA25 /* Project object */;
+}
