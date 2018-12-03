@@ -10,21 +10,23 @@
 		55107EF121ABDB0F00369986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55107EF021ABDB0F00369986 /* Assets.xcassets */; };
 		55107EF721ABE60200369986 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55107EF621ABE60200369986 /* loading.gif */; };
 		55107EF921ABECAA00369986 /* loading.svg in Resources */ = {isa = PBXBuildFile; fileRef = 55107EF821ABECAA00369986 /* loading.svg */; };
-		55107EFB21AC020600369986 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55107EFA21AC020600369986 /* Register.storyboard */; };
 		5599B85B21A3CE350034CA25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599B85A21A3CE350034CA25 /* AppDelegate.swift */; };
-		5599B85D21A3CE350034CA25 /* CommonTrusonaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599B85C21A3CE350034CA25 /* CommonTrusonaViewController.swift */; };
 		5599B86321A3CE350034CA25 /* trusona.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5599B86121A3CE350034CA25 /* trusona.xcdatamodeld */; };
 		5599B86821A3CE360034CA25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5599B86621A3CE360034CA25 /* LaunchScreen.storyboard */; };
 		5599B87321A3CE360034CA25 /* trusonaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599B87221A3CE360034CA25 /* trusonaTests.swift */; };
 		5599B87E21A3CE360034CA25 /* trusonaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599B87D21A3CE360034CA25 /* trusonaUITests.swift */; };
 		559A662C21ABD7FB00DBAB01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559A662B21ABD7FB00DBAB01 /* Main.storyboard */; };
-		55E4C89621A41E50004D9651 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C89521A41E50004D9651 /* ScannerViewController.swift */; };
+		55B53FC221AE818700929E35 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B53FC121AE818700929E35 /* ApiResponse.swift */; };
+		55B53FC421AE899000929E35 /* JsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B53FC321AE899000929E35 /* JsonObject.swift */; };
+		55E4C89621A41E50004D9651 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C89521A41E50004D9651 /* LoginViewController.swift */; };
 		55E4C89821A64792004D9651 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C89721A64791004D9651 /* Request.swift */; };
 		55E4C89C21A9A3B3004D9651 /* TrusonaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C89B21A9A3B3004D9651 /* TrusonaViewController.swift */; };
-		55E4C89E21AA4956004D9651 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C89D21AA4956004D9651 /* Constants.swift */; };
-		55E4C8A021AA6A98004D9651 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C89F21AA6A98004D9651 /* Configs.swift */; };
-		55E4C8A221AB920A004D9651 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C8A121AB920A004D9651 /* RegisterViewController.swift */; };
+		55E4C89E21AA4956004D9651 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C89D21AA4956004D9651 /* Const.swift */; };
+		55E4C8A021AA6A98004D9651 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C89F21AA6A98004D9651 /* Config.swift */; };
+		55E4C8A221AB920A004D9651 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C8A121AB920A004D9651 /* SettingViewController.swift */; };
 		55F521A421ACC67F00E95033 /* Trusonafy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F521A321ACC67F00E95033 /* Trusonafy.swift */; };
+		55F521A621ACCCBA00E95033 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F521A521ACCCBA00E95033 /* WebService.swift */; };
+		55F521A821ACDB1900E95033 /* CommonTrusonaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F521A721ACDB1900E95033 /* CommonTrusonaViewController.swift */; };
 		BF1A11D9A5ED192F03F6A20D /* Pods_trusona.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3ADFF8D40315D983C4DEE8 /* Pods_trusona.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,10 +52,8 @@
 		55107EF021ABDB0F00369986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55107EF621ABE60200369986 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
 		55107EF821ABECAA00369986 /* loading.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = loading.svg; sourceTree = "<group>"; };
-		55107EFA21AC020600369986 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
 		5599B85721A3CE350034CA25 /* trusona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trusona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5599B85A21A3CE350034CA25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5599B85C21A3CE350034CA25 /* CommonTrusonaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTrusonaViewController.swift; sourceTree = "<group>"; };
 		5599B86221A3CE350034CA25 /* trusona.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = trusona.xcdatamodel; sourceTree = "<group>"; };
 		5599B86721A3CE360034CA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5599B86921A3CE360034CA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,13 +64,17 @@
 		5599B87D21A3CE360034CA25 /* trusonaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trusonaUITests.swift; sourceTree = "<group>"; };
 		5599B87F21A3CE360034CA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		559A662B21ABD7FB00DBAB01 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		55E4C89521A41E50004D9651 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		55B53FC121AE818700929E35 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		55B53FC321AE899000929E35 /* JsonObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonObject.swift; sourceTree = "<group>"; };
+		55E4C89521A41E50004D9651 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		55E4C89721A64791004D9651 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		55E4C89B21A9A3B3004D9651 /* TrusonaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrusonaViewController.swift; sourceTree = "<group>"; };
-		55E4C89D21AA4956004D9651 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		55E4C89F21AA6A98004D9651 /* Configs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
-		55E4C8A121AB920A004D9651 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		55E4C89D21AA4956004D9651 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		55E4C89F21AA6A98004D9651 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		55E4C8A121AB920A004D9651 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		55F521A321ACC67F00E95033 /* Trusonafy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trusonafy.swift; sourceTree = "<group>"; };
+		55F521A521ACCCBA00E95033 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		55F521A721ACDB1900E95033 /* CommonTrusonaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTrusonaViewController.swift; sourceTree = "<group>"; };
 		8C3ADFF8D40315D983C4DEE8 /* Pods_trusona.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trusona.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A35C2BA8D06B71F505CB89 /* Pods-trusona.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trusona.release.xcconfig"; path = "Pods/Target Support Files/Pods-trusona/Pods-trusona.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,22 +139,15 @@
 		5599B85921A3CE350034CA25 /* trusona */ = {
 			isa = PBXGroup;
 			children = (
+				55B53FBE21AE794E00929E35 /* Storyboards */,
+				55B53FBD21AE794300929E35 /* Scenes */,
+				55B53FBC21AE792D00929E35 /* Data */,
+				55B53FBB21AE78FE00929E35 /* Environment */,
 				55107EF521ABE5ED00369986 /* Resources */,
 				55107EF021ABDB0F00369986 /* Assets.xcassets */,
 				5599B85A21A3CE350034CA25 /* AppDelegate.swift */,
-				55E4C89D21AA4956004D9651 /* Constants.swift */,
-				55E4C89F21AA6A98004D9651 /* Configs.swift */,
-				5599B85C21A3CE350034CA25 /* CommonTrusonaViewController.swift */,
-				559A662B21ABD7FB00DBAB01 /* Main.storyboard */,
-				55E4C89B21A9A3B3004D9651 /* TrusonaViewController.swift */,
-				55E4C8A121AB920A004D9651 /* RegisterViewController.swift */,
-				55E4C89521A41E50004D9651 /* ScannerViewController.swift */,
-				5599B86621A3CE360034CA25 /* LaunchScreen.storyboard */,
-				55107EFA21AC020600369986 /* Register.storyboard */,
 				5599B86921A3CE360034CA25 /* Info.plist */,
 				5599B86121A3CE350034CA25 /* trusona.xcdatamodeld */,
-				55E4C89721A64791004D9651 /* Request.swift */,
-				55F521A321ACC67F00E95033 /* Trusonafy.swift */,
 			);
 			path = trusona;
 			sourceTree = "<group>";
@@ -171,6 +168,63 @@
 				5599B87F21A3CE360034CA25 /* Info.plist */,
 			);
 			path = trusonaUITests;
+			sourceTree = "<group>";
+		};
+		55B53FBB21AE78FE00929E35 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				55E4C89D21AA4956004D9651 /* Const.swift */,
+				55E4C89F21AA6A98004D9651 /* Config.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		55B53FBC21AE792D00929E35 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				55B53FC021AE79BC00929E35 /* Utility */,
+				55B53FBF21AE799F00929E35 /* Api */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		55B53FBD21AE794300929E35 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				55E4C89B21A9A3B3004D9651 /* TrusonaViewController.swift */,
+				55F521A721ACDB1900E95033 /* CommonTrusonaViewController.swift */,
+				55E4C8A121AB920A004D9651 /* SettingViewController.swift */,
+				55E4C89521A41E50004D9651 /* LoginViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		55B53FBE21AE794E00929E35 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				559A662B21ABD7FB00DBAB01 /* Main.storyboard */,
+				5599B86621A3CE360034CA25 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		55B53FBF21AE799F00929E35 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				55B53FC121AE818700929E35 /* ApiResponse.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		55B53FC021AE79BC00929E35 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				55E4C89721A64791004D9651 /* Request.swift */,
+				55F521A521ACCCBA00E95033 /* WebService.swift */,
+				55F521A321ACC67F00E95033 /* Trusonafy.swift */,
+				55B53FC321AE899000929E35 /* JsonObject.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		9E593EA5326C9230A7CA8C04 /* Pods */ = {
@@ -301,7 +355,6 @@
 				55107EF921ABECAA00369986 /* loading.svg in Resources */,
 				5599B86821A3CE360034CA25 /* LaunchScreen.storyboard in Resources */,
 				55107EF121ABDB0F00369986 /* Assets.xcassets in Resources */,
-				55107EFB21AC020600369986 /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,15 +424,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55E4C8A221AB920A004D9651 /* RegisterViewController.swift in Sources */,
-				5599B85D21A3CE350034CA25 /* CommonTrusonaViewController.swift in Sources */,
-				55E4C8A021AA6A98004D9651 /* Configs.swift in Sources */,
+				55E4C8A221AB920A004D9651 /* SettingViewController.swift in Sources */,
+				55F521A821ACDB1900E95033 /* CommonTrusonaViewController.swift in Sources */,
+				55E4C8A021AA6A98004D9651 /* Config.swift in Sources */,
 				5599B85B21A3CE350034CA25 /* AppDelegate.swift in Sources */,
 				55E4C89C21A9A3B3004D9651 /* TrusonaViewController.swift in Sources */,
 				55E4C89821A64792004D9651 /* Request.swift in Sources */,
-				55E4C89E21AA4956004D9651 /* Constants.swift in Sources */,
+				55B53FC221AE818700929E35 /* ApiResponse.swift in Sources */,
+				55B53FC421AE899000929E35 /* JsonObject.swift in Sources */,
+				55E4C89E21AA4956004D9651 /* Const.swift in Sources */,
 				5599B86321A3CE350034CA25 /* trusona.xcdatamodeld in Sources */,
-				55E4C89621A41E50004D9651 /* ScannerViewController.swift in Sources */,
+				55E4C89621A41E50004D9651 /* LoginViewController.swift in Sources */,
+				55F521A621ACCCBA00E95033 /* WebService.swift in Sources */,
 				55F521A421ACC67F00E95033 /* Trusonafy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,8 +601,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4EFBB9B746ED98C392F96CC9 /* Pods-trusona.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXWVAX7PB2;
 				INFOPLIST_FILE = trusona/Info.plist;
@@ -557,6 +614,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.inet.trusona;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -567,8 +625,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4A35C2BA8D06B71F505CB89 /* Pods-trusona.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXWVAX7PB2;
 				INFOPLIST_FILE = trusona/Info.plist;
@@ -579,6 +638,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.inet.trusona;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -3,7 +3,7 @@
 
 import Foundation
 
-class Request {
+struct Request {
     let session: URLSession = URLSession.shared
     
     // GET METHOD
@@ -16,7 +16,7 @@ class Request {
     }
     
     // POST METHOD
-    func post(url: URL, body: NSMutableDictionary, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) throws {
+    func post(url: URL, body: [String: Any], completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) throws {
         var request: URLRequest = URLRequest(url: url)
         
         request.httpMethod = "POST"
@@ -58,3 +58,12 @@ class Request {
         session.dataTask(with: request, completionHandler: completionHandler).resume()
     }
 }
+
+/// Get a view controller for scanning QR codes. The view controller is very basic, so it may be a good idea to add it
+/// as a child
+/// view controller of another one which implements additional navigation features.
+///
+/// - parameter truCodePaired: An optional block that will be called when the scanner finds a code and sends it to the
+///                            server.
+/// - returns: a `UIViewController` that should be shown to present the scanning interface to the user.
+/// - throws: an error if anything goes wrong in setting up the view controller
